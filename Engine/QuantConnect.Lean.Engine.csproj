@@ -247,10 +247,6 @@
       <Project>{e3e53181-1520-4d6e-9999-0c4ba9d68df6}</Project>
       <Name>QuantConnect.Algorithm.HarvestCapital</Name>
     </ProjectReference>
-    <ProjectReference Include="..\Algorithm.VisualBasic\QuantConnect.Algorithm.VisualBasic.vbproj">
-      <Project>{af8f124b-b441-4aa7-92b7-cea72bdb4118}</Project>
-      <Name>QuantConnect.Algorithm.VisualBasic</Name>
-    </ProjectReference>
     <ProjectReference Include="..\AlgorithmFactory\QuantConnect.AlgorithmFactory.csproj">
       <Project>{e99d056a-b6fb-48d2-9f7c-683c54cebbf9}</Project>
       <Name>QuantConnect.AlgorithmFactory</Name>
