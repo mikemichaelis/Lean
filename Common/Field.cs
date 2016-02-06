@@ -28,7 +28,7 @@ namespace QuantConnect
         /// Gets a selector that selects the Open value
         /// </summary>
         public static Func<BaseData, decimal> Open
-        {
+        {   // test
             get { return TradeBarPropertyOrValue(x => x.Open); }
         }
 
