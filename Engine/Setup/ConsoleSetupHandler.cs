@@ -144,7 +144,7 @@ namespace QuantConnect.Lean.Engine.Setup
                     backtestJob.PeriodStart = algorithm.StartDate;
                     backtestJob.PeriodFinish = algorithm.EndDate;
                     backtestJob.BacktestId = "LOCALHOST";
-                    backtestJob.UserId = 1001;
+                    backtestJob.UserId = 2111;
                     backtestJob.Type = PacketType.BacktestNode;
 
                     //Backtest Specific Parameters:
