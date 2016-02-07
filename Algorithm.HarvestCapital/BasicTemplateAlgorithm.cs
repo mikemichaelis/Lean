@@ -39,6 +39,8 @@ namespace QuantConnect.Algorithm.HarvestCapital
 
             var orders = this.Transactions.GetOrders(x => x.Symbol == SPY.Symbol);
 
+            
+
             if (!Portfolio.Invested)
             {
                 SetHoldings("SPY", .5);
